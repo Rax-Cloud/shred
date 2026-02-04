@@ -1,0 +1,18 @@
+/* global.css */
+
+img {
+  /* Force the browser to use high-quality scaling */
+  image-rendering: -webkit-optimize-contrast;
+
+  /* The "Sub-pixel" fix: forces the browser to re-calculate
+     every pixel rather than skipping them */
+  transform: translateZ(0) scale(1.0);
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* Fix for images inside containers that zoom */
+.group:hover img {
+    /* Ensures the transition doesn't "snap" or flicker */
+    will-change: transform;
+}
