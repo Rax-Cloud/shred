@@ -25,27 +25,25 @@ const AboutView: React.FC = () => {
           </h1>
 
           <div className="space-y-8 text-lg leading-relaxed text-gray-700">
-            <p>
-              Tere tulemast <span className="font-bold">SHREDI</span>.
+            <p style={{ fontFamily: 'Poppins, sans-serif' }}>
+              SHRED pusa idee sündis Tallinna südames väikeses kohviku nurgakeses, kus neli noort oma ajusid ragistasid. Soov oli luua midagi tõeliselt ägedat, mida varem keegi pole teinud.
             </p>
-            <p>
-              Oleme pühendunud meeskond, kes usub jätkusuutlikku moodi ja unikaalsesse disaini.
-              Iga meie toode on valminud hoole ja armastusega.
-            </p>
+              <p style={{ fontFamily: 'Poppins, sans-serif' }}>Kõik algas ühest lihtsast probleemist, mäele minnes eelistavad paljud pusa kanda. Reaalsus on aga see, et turvalisi taskuid asjade hoidmiseks pole, tuleb selga tõmmata lõpmatu arv riidekihte ja lõpuks annad alla ning otsid kapipõhjast välja hingehinna eest ostetud suusajope, mis suurema osa aastast tolmu kogub.</p>
+              <p style={{ fontFamily: 'Poppins, sans-serif' }}>Aga miks peaks üldse valima stiili, mugavuse ja funktsionaalsuse vahel?</p>
+              <p style={{ fontFamily: 'Poppins, sans-serif' }}>Nii hakkas SHRED vaikselt nuputama. Ja peagi tekkis idee luua stiilne, mugav ja praktiline mäepusa. Pusa, mis ei oleks järgmine kiirmoe lisatoode, vaid kvaliteetne ja funktsionaalne toode, mida saab kanda aastaringselt, ükskõik mida tehes.</p>
             <div className="my-16">
               <img
                  src={uldGruppiPiltFull}
                  alt="SHREDI meeskond"
                  className="w-full h-auto object-cover shadow-sm"
               />
-              <p className="text-sm text-gray-400 mt-4 uppercase tracking-widest">Meie tiim Tallinna südames</p>
             </div>
           </div>
         </div>
 
         {/* owners Section */}
         <div className="mt-24 pt-16 border-t border-gray-100">
-           <h2 className={`text-3xl text-center mb-16 ${THEME.fonts.display}`}>OMANIKUD</h2>
+           <h2 className={`text-3xl text-center mb-16 ${THEME.fonts.display}`}>Liikmed</h2>
 
            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
               {owners.map((owner, index) => (
@@ -91,13 +89,13 @@ const AboutView: React.FC = () => {
 
               <div>
                  <span className="block text-[10px] uppercase tracking-widest text-gray-400 mb-2">Mentorid</span>
-                 <p className="text-lg font-medium">Otto Jürgens</p>
                  <p className="text-lg font-medium">Sten Solovjov</p>
+                 <p className="text-lg font-medium">Otto Jürgens</p>
               </div>
 
               <div>
                  <span className="block text-[10px] uppercase tracking-widest text-gray-400 mb-2">Fotograaf</span>
-                 <p className="text-lg font-medium">Uku S.</p>
+                 <p className="text-lg font-medium">Uku Seermann</p>
               </div>
            </div>
         </div>

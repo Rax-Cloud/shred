@@ -17,7 +17,9 @@ export const THEME: ThemeConfig = {
   },
 };
 
-export const GOOGLE_FORM_EMBED_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfD_GL9E8d_E8d_E8d_E8d/viewform?embedded=true"; 
+export const GOOGLE_FORM_EMBED_URLL = "https://docs.google.com/forms/d/e/1FAIpQLSfD_GL9E8d_E8d_E8d_E8d/viewform?embedded=true";
+export const GOOGLE_FORM_EMBED_URL = "https://forms.gle/hYBLS9YexnP32iGAA";
+export const GOOGLE_FORM_EMBED_URL_SPECIAL = "https://forms.gle/FQQEdPz5mLAe6Laf6";
 
 export const MOCK_PRODUCTS: Product[] = [
   {
