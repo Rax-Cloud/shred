@@ -105,6 +105,11 @@ const ProductDetailView: React.FC<ProductDetailViewProps> = ({ product, onBack }
                <p>{product.description}</p>
              </div>
 
+              {product.isSpecial && (
+                  <div className="prose prose-sm text-gray-600 mb-8">
+                      <p>Sisevoodriga +10€.</p> </div>
+                      )}
+
               {/* Size Guide (Visible for all products) */}
             <div className="mt-12">
               <h3 className="font-bold uppercase mb-4 text-sm tracking-wide">Suurus</h3>

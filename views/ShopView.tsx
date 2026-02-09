@@ -44,10 +44,10 @@ const HOODIE_VARIANTS = [
     id: 'hoodies_no_lining',
     title: 'Pusad voodrita',
     items: [
-      { id: 'no_line_hood-navy-pink', color: 'Tumesinine roosa disainiga', image: navyPink, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitasku ning eemaldatava sisevoodriga.', detailImages: [navyPinkFront, navyPocket, navySisetasku] },
-      { id: 'no_line_hood-navy-white', color: 'Tumesinine valge disainiga', image: navyWhite, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitasku ning eemaldatava sisevoodriga.', detailImages: [navyEest, navyPocket, navySisetasku] },
-      { id: 'no_line_hood-gray-pink', color: 'Tumehall roosa disainiga', image: grayPink, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitasku ning eemaldatava sisevoodriga.', detailImages: [grayEest, grayKaetasku, graySisetasku] },
-      { id: 'no_line_hood-gray-white', color: 'Tumehall valge disainiga', image: grayWhite, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitasku ning eemaldatava sisevoodriga.', detailImages: [grayWhiteFront, grayKaetasku, graySisetasku] },
+      { id: 'no_line_hood-navy-pink', color: 'Tumesinine roosa disainiga', image: navyPink, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitaskuga.', detailImages: [navyPinkFront, navyPocket, navySisetasku] },
+      { id: 'no_line_hood-navy-white', color: 'Tumesinine valge disainiga', image: navyWhite, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitaskuga.', detailImages: [navyEest, navyPocket, navySisetasku] },
+      { id: 'no_line_hood-gray-pink', color: 'Tumehall roosa disainiga', image: grayPink, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitaskuga.', detailImages: [grayEest, grayKaetasku, graySisetasku] },
+      { id: 'no_line_hood-gray-white', color: 'Tumehall valge disainiga', image: grayWhite, price: 98.00, description: 'Heavyweight pusa mäekaardi ja veekindla telefonitaskuga.', detailImages: [grayWhiteFront, grayKaetasku, graySisetasku] },
     ],
   },
 ];
@@ -64,7 +64,7 @@ const SPECIAL_VARIANTS = [
         color: 'Vali pusa värv ise',
         image: specialHoodie,
         price: 105.00,
-        description: 'Heavyweight pusa mäekaardi ja veekindla telefonitasku ning eemaldatava sisevoodriga.',
+        description: 'Heavyweight pusa mäekaardi ja veekindla telefonitaskuga.',
         detailImages: [specialColors, specialBoard, specialFront, specialBackBoard],
         // You can use this property in ProductDetailView to show extra stuff
         isSpecial: true
