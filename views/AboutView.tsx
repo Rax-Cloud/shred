@@ -1,6 +1,6 @@
 import React from 'react';
 import { THEME } from '../constants';
-import uldGruppiPiltFull from '../assets/uldgruppipiltFull.jpg';
+import uldGruppiPiltFull from '../assets/uldGruppiPiltFullReduced.jpg';
 import birgitImg from '../assets/owners/Birgit.jpeg';
 import amandaImg from '../assets/owners/amanda.jpeg';
 import teeleImg from '../assets/owners/teele.jpeg';

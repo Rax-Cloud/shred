@@ -3,7 +3,7 @@ import { Product } from '../types';
 import { THEME, GOOGLE_FORM_EMBED_URL } from '../constants';
 
 // --- IMPORTS ---
-import uldpiltFull from "../assets/uldpiltFull.jpg";
+import uldpiltFull from "../assets/uldPiltFullReduced.jpg";
 import navyPink from "../assets/hoodies/SHRED_navy_roosa.jpg";
 import navyWhite from "../assets/hoodies/SHRED_navy_valge.jpg";
 import grayPink from "../assets/hoodies/SHRED_hall_roosa.jpg";
@@ -11,7 +11,7 @@ import grayWhite from "../assets/hoodies/SHRED_hall_valge.jpg";
 import navyPocket from "../assets/hoodies/navy/navy_pocket.jpg";
 import navySisetasku from "../assets/hoodies/navy/navy_sisetasku.jpg";
 import navyEest from "../assets/hoodies/navy/navy_eest.jpg";
-import grayEest from "../assets/hoodies/hall/hall_eest.jpg";
+import grayEest from "../assets/hoodies/hall/hall_eest2.jpg";
 import grayKaetasku from "../assets/hoodies/hall/hall_kaetasku.jpg";
 import graySisetasku from "../assets/hoodies/hall/hall_sisetasku.jpg";
 import navyPinkFront from "../assets/hoodies/navy/tumesinine_roosa_eest.jpg";
