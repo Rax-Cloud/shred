@@ -155,7 +155,7 @@ const ProductDetailView: React.FC<ProductDetailViewProps> = ({ product, onBack }
                   </div>
                 </div>
 
-                {/* 2. Embedded Order Form Section
+                {/* 2. Embedded Order Form Section */}
                 <div className="mt-24 pt-12 border-t border-gray-200">
                   <div className="text-center mb-8">
                     <h2 className={`text-2xl ${THEME.fonts.display} mb-2`}>Valmis tellima?</h2>
@@ -173,7 +173,7 @@ const ProductDetailView: React.FC<ProductDetailViewProps> = ({ product, onBack }
                        Loading…
                      </iframe>
                   </div>
-                </div> */}
+                </div>
               </>
             )}
 

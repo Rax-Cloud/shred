@@ -184,7 +184,7 @@ const ShopView: React.FC<ShopViewProps> = ({ onProductSelect }) => {
           ))}
         </div>
 
-        {/* Embedded Order Form Section
+        {/* Embedded Order Form Section*/}
         <div className="mt-24 pt-12 border-t border-gray-200">
           <div className="text-center mb-8">
             <h2 className={`text-2xl ${THEME.fonts.display} mb-2`}>Valmis tellima?</h2>
@@ -202,7 +202,7 @@ const ShopView: React.FC<ShopViewProps> = ({ onProductSelect }) => {
                Loading…
              </iframe>
           </div>
-        </div>*/}
+        </div>
       </div>
     </div>
   );
