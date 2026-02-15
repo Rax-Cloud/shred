@@ -188,7 +188,7 @@ const ShopView: React.FC<ShopViewProps> = ({ onProductSelect }) => {
         <div className="mt-24 pt-12 border-t border-gray-200">
           <div className="text-center mb-8">
             <h2 className={`text-2xl ${THEME.fonts.display} mb-2`}>Valmis tellima?</h2>
-            <p className="text-gray-600">Täida vorm, et eeltellida.</p>
+            <p className="text-gray-600">Täida vorm, et esitada eeltellimus.</p>
           </div>
 
           <div className="w-full bg-gray-50 rounded-lg overflow-hidden flex justify-center shadow-inner">

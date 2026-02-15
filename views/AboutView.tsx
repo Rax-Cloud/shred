@@ -95,7 +95,7 @@ const AboutView: React.FC = () => {
 
               <div>
                  <span className="block text-[10px] uppercase tracking-widest text-gray-400 mb-2">Fotograaf</span>
-                 <p className="text-lg font-medium">Uku Seermann</p>
+                 <p className="text-lg font-medium">Uku Sermann</p>
               </div>
            </div>
         </div>
