@@ -92,11 +92,11 @@ const ShopView: React.FC<ShopViewProps> = ({ onProductSelect }) => {
         <h1 className={`text-4xl sm:text-5xl mb-8 ${THEME.fonts.display} ${THEME.colors.text}`}>
           Tooted
         </h1>
-
+        {/*
           <h4 className={`text-1xl sm:text-2xl mb-8 text-center bg-black text-pink-200 ${THEME.fonts.display} ${THEME.colors.text}`}>
           Eel-ja eritellimusi võetakse vastu 1-2 korda kuus. Hetkel pole tellimine avatud!
         </h4>
-
+        */}
         {/* --- STANDARD PRODUCTS GRID --- */}
         <div className="space-y-16 font-medium font-poppins" style={{ fontFamily: 'Poppins, sans-serif' }}>
           {HOODIE_VARIANTS.map((variant) => (
@@ -188,7 +188,7 @@ const ShopView: React.FC<ShopViewProps> = ({ onProductSelect }) => {
           ))}
         </div>
 
-        {/* Embedded Order Form Section
+        {/* Embedded Order Form Section*/}
         <div className="mt-24 pt-12 border-t border-gray-200">
           <div className="text-center mb-8">
             <h2 className={`text-2xl ${THEME.fonts.display} mb-2`}>Valmis tellima?</h2>
@@ -206,7 +206,7 @@ const ShopView: React.FC<ShopViewProps> = ({ onProductSelect }) => {
                Loading…
              </iframe>
           </div>
-        </div>*/}
+        </div>
       </div>
     </div>
   );
